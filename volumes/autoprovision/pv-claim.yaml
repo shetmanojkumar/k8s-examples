@@ -1,9 +1,9 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: task-pv-claim
+  name: auto-provision
 spec:
-  storageClassName: manual
+  storageClassName: mysc
   accessModes:
     - ReadWriteOnce
   resources:
