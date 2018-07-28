@@ -1,3 +1,5 @@
+Author- Pravin Magdum (pravin.magdum@gmail.com)
+
 1. Get the application URL by running these commands:
 {{- if .Values.ingress.enabled }}
 {{- range .Values.ingress.hosts }}
