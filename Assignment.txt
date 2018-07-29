@@ -1,4 +1,4 @@
-Assignment :-
+Its time for Assignment :)
 
 1. Create a image for nginx server with some static content in it.
 2. Build image.
