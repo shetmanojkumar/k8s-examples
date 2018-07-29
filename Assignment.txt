@@ -1,0 +1,9 @@
+Assignment :-
+
+1. Create a image for nginx server with some static content in it.
+2. Build image.
+3. Push image on docker hub.
+4. Run this image on k8s cluster with 3 replicas (hint deployment) so that we can change that static content from our host machine (hint volumes) 
+5. Access this app from your browser (hint services and its types).
+6. Login through ssh to server where pod is running and change the content without making website down.
+7. Update source content and rebuild image with version 2 and perform rolling update.
